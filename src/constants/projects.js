@@ -1,0 +1,67 @@
+export const PROJECT_CATEGORIES = [
+  'All',
+  'Website Development',
+  'AI Tools',
+  'Logo & Branding',
+  'Data Cleaning',
+  'Graphic Design',
+  'Prompt Engineering',
+]
+
+export const PROJECTS = [
+  {
+    id: 1,
+    title: 'Kalkoot.com',
+    category: 'AI Tools',
+    // Replace with your actual image path e.g. '/projects/alpha.jpg'
+    image: 'projects/kalkoot.png',
+    desc: 'a full-stack brand website for a Kalkoot startup and developed “Naymitra,” an AI-powered legal assistant that helps users get quick, reliable legal guidance through an intuitive platform.',
+    liveUrl: 'https://kalkoot.com/',
+    tags: ['React', 'Node.js', 'Python', 'Claude','AI Assistant'],
+  },
+  {
+    id: 2,
+    title: 'ParikshaPrep.com',
+    category: 'Website Development',
+    image: 'projects/parikshaprep.png',
+    desc: 'Developed an AI-powered study assistant using custom ChatGPT integration and a MongoDB-based question bank with thousands of questions, featuring interactive quizzes, mock tests, and both mobile and web applications.',
+    liveUrl: 'https://parikshaprep.in/',
+    tags: ['VanillaJS', 'MangoDB', 'Automation', 'ChatGPT'],
+  },
+  {
+    id: 3,
+    title: 'Brew-and-Bloom',
+    category: 'Website Development',
+    image: 'projects/brewandbloom.png',
+    desc: 'Created an end-to-end brand identity for a coffee shop startup, from logo and typography to color systems and brand guidelines, ensuring a cohesive and memorable visual presence.',
+    liveUrl: 'https://brews-and-bloom.netlify.app/',
+    tags: ['Logo', 'Brand Kit', 'Typography', 'Color Palette','website'],
+  },
+  {
+    id: 4,
+    title: 'Alphafuel Gym',
+   category: 'Website Development',
+    image: 'projects/alpha.png',
+    desc: 'Developed a full-stack brand website for a fitness gym startup with custom animations, fully responsive layouts, and optimized performance for a seamless user experience on web and mobile devices.',
+    liveUrl: 'https://alphafuel-gym.netlify.app/',
+    tags: ['Python', 'Excel', 'SQL'],
+  },
+  {
+    id: 5,
+    title: 'Shreelaxmi Sweets',
+    category: 'Website Development',
+    image: 'projects/shreelaxmi.png',
+    desc: 'Developed a full-featured e-commerce platform for a sweets shop with dynamic product pages and a custom-built CMS to manage products, categories, and content.',
+    liveUrl: 'https://shreelaxmimithaiwala.netlify.app/',
+    tags: ['Instagram', 'Canva Pro', 'Figma'],
+  },
+  {
+    id: 6,
+    title: 'PromptPro',
+    category: 'Website Development',
+    image: 'https://placehold.co/600x400/0d1f3c/60a5fa?text=Your+Project+Here',
+    desc: 'A library of 200+ industry-specific prompts for a content agency.',
+    liveUrl: '#',
+    tags: ['ChatGPT', 'Midjourney', 'Claude'],
+  },
+]
