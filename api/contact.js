@@ -9,7 +9,7 @@ export default async function handler(req, res) {
 
   try {
     await resend.emails.send({
-      from: 'Goultra.co <hello@goultra.co>',
+      from: 'Goultra.co <hello@goultra.com>',
       to:   'devanshusaxena8@gmail.com',          // your inbox
       replyTo: email,                     // so you can reply directly to client
       subject: `New inquiry: ${service}`,
@@ -24,7 +24,7 @@ export default async function handler(req, res) {
 
     // Also send confirmation to the client
     await resend.emails.send({
-      from: 'Goultra.co <hello@goultra.co>',
+      from: 'Goultra.co <hello@goultra.com>',
       to:   email,
       subject: `We got your message, ${name}! 🎉`,
       html: `
