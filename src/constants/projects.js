@@ -12,7 +12,7 @@ export const PROJECTS = [
   {
     id: 1,
     title: 'Kalkoot.com',
-    category: 'AI Tools',
+    category: 'AI Tools ',
     // Replace with your actual image path e.g. '/projects/alpha.jpg'
     image: 'projects/kalkoot.png',
     desc: 'a full-stack brand website for a Kalkoot startup and developed “Naymitra,” an AI-powered legal assistant that helps users get quick, reliable legal guidance through an intuitive platform.',
