@@ -49,9 +49,7 @@ export default function Projects() {
           </p>
         )}
 
-        <p className="text-center text-gray-400 text-sm mt-8">
-          * Replace placeholder images in <code className="bg-gray-100 px-1 rounded">src/constants/projects.js</code> with your actual project images.
-        </p>
+        
       </div>
     </section>
   )
