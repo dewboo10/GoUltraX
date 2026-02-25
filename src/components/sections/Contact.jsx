@@ -9,14 +9,23 @@ export default function Contact() {
   const [submitted, setSubmit] = useState(false)
 
   const set = (field) => (e) => setForm((f) => ({ ...f, [field]: e.target.value }))
+  const handleSubmit = async (e) => {
+  e.preventDefault()
+  
+  try {
+    const res = await fetch('/api/contact', {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body:    JSON.stringify(form),
+    })
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // TODO: wire up to your backend / EmailJS / Formspree
-    console.log('Form submitted:', form)
+    if (!res.ok) throw new Error()
     setSubmit(true)
     setForm(INITIAL)
+  } catch {
+    alert('Something went wrong. Please DM us on Instagram @goultra.co')
   }
+}
 
   return (
     <section id="contact" className="py-24 bg-white">
