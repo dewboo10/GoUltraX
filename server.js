@@ -109,7 +109,7 @@ app.post('/api/contact', async (req, res) => {
 
   try {
     await resend.emails.send({
-      from:    'Goultra.co <onboarding@resend.dev>',
+      from: 'Goultrax.com <hello@goultrax.com>',
       to:      'devanshusaxena8@gmail.com',
       replyTo: email,
       subject: `New inquiry: ${service}`,
@@ -123,7 +123,7 @@ app.post('/api/contact', async (req, res) => {
     })
 
     await resend.emails.send({
-      from:    'Goultra.co <onboarding@resend.dev>',
+      from:    'Goultrax.com <hello@goultrax.com>',
       to:      email,
       subject: `We got your message, ${name}! 🎉`,
       html: `
