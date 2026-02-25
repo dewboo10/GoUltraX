@@ -24,7 +24,7 @@ export default async function handler(req, res) {
 
     // Also send confirmation to the client
     await resend.emails.send({
-      from: 'Goultra.co <onboarding@resend.dev>',
+      from: 'Goultra.co <hello@goultra.co>',
       to:   email,
       subject: `We got your message, ${name}! 🎉`,
       html: `
