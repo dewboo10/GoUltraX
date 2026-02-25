@@ -31,7 +31,7 @@ export const PROJECTS = [
   {
     id: 3,
     title: 'Brew-and-Bloom',
-    category: 'Website Development',
+    category: 'Logo & Branding',
     image: 'projects/brewandbloom.png',
     desc: 'Created an end-to-end brand identity for a coffee shop startup, from logo and typography to color systems and brand guidelines, ensuring a cohesive and memorable visual presence.',
     liveUrl: 'https://brews-and-bloom.netlify.app/',
@@ -57,11 +57,11 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    title: 'PromptPro',
+    title: 'FitBall Fitness',
     category: 'Website Development',
-    image: 'https://placehold.co/600x400/0d1f3c/60a5fa?text=Your+Project+Here',
-    desc: 'A library of 200+ industry-specific prompts for a content agency.',
-    liveUrl: '#',
-    tags: ['ChatGPT', 'Midjourney', 'Claude'],
+    image: 'projects/fitball.png',
+    desc: 'Created a dynamic fitness website with custom animations, responsive design, and performance optimizations to provide an engaging user experience across all devices.',
+    liveUrl: 'https://fit-ball.netlify.app/',
+    tags: ['ChatGPT', 'Python', 'Node.js'],
   },
 ]
