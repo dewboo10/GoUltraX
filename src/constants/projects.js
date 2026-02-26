@@ -62,6 +62,6 @@ export const PROJECTS = [
     image: 'projects/fitball.png',
     desc: 'Created a dynamic fitness website with custom animations, responsive design, and performance optimizations to provide an engaging user experience across all devices.',
     liveUrl: 'https://fit-ball.netlify.app/',
-    tags: ['ChatGPT', 'Python', 'Node.js'],
+    tags: ['Tailwind CSS', 'React', 'Node.js'],
   },
 ]
