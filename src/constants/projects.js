@@ -53,7 +53,7 @@ export const PROJECTS = [
     image: 'projects/shreelaxmi.png',
     desc: 'Developed a full-featured e-commerce platform for a sweets shop with dynamic product pages and a custom-built CMS to manage products, categories, and content.',
     liveUrl: 'https://shreelaxmimithaiwala.netlify.app/',
-    tags: ['Instagram', 'Canva Pro', 'Figma'],
+    tags: ['Instagram', 'Canva Pro', 'Figma' , 'website'],
   },
   {
     id: 6,
