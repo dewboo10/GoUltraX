@@ -47,7 +47,9 @@ export default function Contact() {
           <div className="space-y-4">
             {[
               { icon: '📸', label: 'Instagram', val: '@GoUltraX.co', href: BRAND.instagram },
-              { icon: '📧', label: 'Email',     val: BRAND.email,   href: `mailto:${BRAND.email}` },
+              // { icon: '📧', label: 'Email',     val: BRAND.email,   href: `mailto:${BRAND.email}` },
+              { icon: '🔗', label: 'LinkedIn',  val: 'GoUltraX',    href: BRAND.linkedin },
+              { icon: '🚀 ', label: 'Facebook',  val: 'GoUltraX',    href: BRAND.facebook },
             ].map((c) => (
               <a
                 key={c.label}

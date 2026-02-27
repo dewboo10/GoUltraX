@@ -49,17 +49,24 @@ export default function Footer() {
             </h4>
             <div className="space-y-2 text-sm text-blue-200/60">
               <p>
-                📧{' '}
-                <a href={`mailto:${BRAND.email}`} className="hover:text-white transition-colors">
-                  {BRAND.email}
+                📸{' '}
+                <a href={BRAND.instagram} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+                  Instagram
                 </a>
               </p>
               <p>
-                📸{' '}
-                <a href={BRAND.instagram} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
-                  Instagram DM
+                🔗{' '}
+                <a href={BRAND.linkedin} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+                  LinkedIn
                 </a>
               </p>
+              <p>
+                🚀{' '}
+                <a href={BRAND.facebook} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+                  Facebook
+                </a>
+              </p>
+            {/* </div> */}
               <p className="pt-2">Response within a few hours.</p>
             </div>
           </div>

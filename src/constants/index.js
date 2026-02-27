@@ -71,5 +71,6 @@ export const BRAND = {
   name: 'GoUltraX.com',
   tagline: 'Digital Solutions, Smarter Pricing',
   instagram: 'https://www.instagram.com/goUltraX',
-  email: 'hello@goUltraX.co',
+  linkedin: 'https://www.linkedin.com/company/goultrax',
+  facebook: 'https://www.facebook.com/goultrax',
 }
