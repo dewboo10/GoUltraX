@@ -35,7 +35,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg text-blue-100/80 leading-relaxed mb-8 max-w-md">
-            GoUltraX.co is your all-in-one digital partner — websites, AI tools, branding,
+            GoUltraX.co is your all-in-one digital partner - Websites, AI tools, branding,
             design & more. Big-agency quality. Startup-friendly prices.
           </p>
 

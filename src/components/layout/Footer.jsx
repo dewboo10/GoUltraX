@@ -19,7 +19,7 @@ export default function Footer() {
               rel="noreferrer"
               className="inline-flex items-center gap-2 mt-4 text-sm text-blue-300 hover:text-white transition-colors"
             >
-              📸 @GoUltraX.co
+              📸 @GoUltraX.com
             </a>
           </div>
 
